@@ -1,0 +1,97 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 0;
+	background-image: url(../img/galaxy.jpg);
+}
+.wrapper {
+	width: 80%;
+	margin: 0 auto;
+	padding: 1em;
+	display: flex;
+	flex-flow: row nowrap;
+	background-color: whitesmoke;
+}
+p {
+	margin: 2rem 0 0 0;
+}
+section {
+	flex-basis: 57%;
+	margin-right: 10%;
+}
+aside {
+	flex-basis: 33%;
+}
+
+fieldset{
+	border:1px solid black;
+	border-radius: 10px;
+	margin:2rem 0 1rem 0;
+
+}
+
+legend{
+	border:1px solid black;
+	border-radius:4px;
+	
+}
+
+button{
+	border:1px solid darkslategray;
+	border-radius: 10px;
+	padding:0.7rem 0.5rem 0.7rem 0.5rem;
+	background-color: whitesmoke;
+	font-size: 1.6rem;
+}
+
+button:hover{
+	background-image: linear-gradient(to top right, rgb(231, 231, 231) , whitesmoke 40%);
+	box-shadow: 0 0 20px 5px rgb(179, 179, 179);
+	
+}
+
+input:not([type="radio"]):not([type="checkbox"]),textarea,select{
+	display: block;
+	width:20rem;
+	padding:0 2rem;
+	margin-bottom:0.5rem;
+	font-size: 1rem;
+	font-family: 'Courier New', Courier, monospaces;
+	border-radius:4px;
+	border:1px solid rgb(183, 183, 183);
+	background-color: white;
+	background-image: none;
+}
+input{
+	display:block;
+}
+
+label{
+	display:block;
+}
+
+[for="abdtype"]{
+	margin-top:2rem;
+}
+
+
+.body{
+
+  font-family: "Roboto", sans-serif;
+}
+
+
+.roboto-font {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  color:red;
+  font-variation-settings:
+    "wdth" 100;
+}
